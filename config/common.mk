@@ -22,3 +22,13 @@ $(call inherit-product, vendor/starlight/config/BoardConfigStar.mk)
 
 # Include overlays
 include vendor/starlight/products/common.mk
+
+# Face Unlock
+PRODUCT_PACKAGES += \
+    FaceUnlockService
+
+TARGET_FACE_UNLOCK_SUPPORTED := true
+
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    ro.face.moto_unlock_service=$(TARGET_FACE_UNLOCK_SUPPORTED)
+

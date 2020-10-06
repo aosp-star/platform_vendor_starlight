@@ -3,6 +3,7 @@ include vendor/starlight/products/version.mk
 
 # Navbar
 PRODUCT_PACKAGES += \
+    GesturalNavigationOverlayHidden \
     GesturalNavigationOverlayLong \
     GesturalNavigationOverlayMedium
 

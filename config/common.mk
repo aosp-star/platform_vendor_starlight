@@ -19,3 +19,6 @@ $(call inherit-product, vendor/starlight/config/versioning.mk)
 
 # Inherit from our kernel/header generator
 $(call inherit-product, vendor/starlight/config/BoardConfigStar.mk)
+
+# Include overlays
+include vendor/starlight/products/common.mk

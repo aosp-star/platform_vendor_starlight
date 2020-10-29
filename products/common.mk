@@ -10,3 +10,6 @@ DEVICE_PACKAGE_OVERLAYS += \
 # ThemePicker
 PRODUCT_PACKAGES += \
     ThemePicker
+
+# Build Version
+include vendor/starlight/products/version.mk

@@ -3,6 +3,10 @@ PRODUCT_PACKAGES += \
     GesturalNavigationOverlayLong \
     GesturalNavigationOverlayMedium
 
+# Overlays
+DEVICE_PACKAGE_OVERLAYS += \
+    vendor/starlight/overlay/
+
 # ThemePicker
 PRODUCT_PACKAGES += \
     ThemePicker

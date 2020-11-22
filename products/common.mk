@@ -1,6 +1,10 @@
 # Build Version
 include vendor/starlight/products/version.mk
 
+# Calculator
+PRODUCT_PACKAGES += \
+    ExactCalculator
+
 # Navbar
 PRODUCT_PACKAGES += \
     GesturalNavigationOverlayHidden \

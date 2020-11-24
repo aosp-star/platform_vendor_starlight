@@ -83,6 +83,10 @@ PRODUCT_COPY_FILES += \
     vendor/starlight/products/audio/ui/VideoStop.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui/VideoStop.ogg \
     vendor/starlight/products/audio/ui/WirelessChargingStarted.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui/WirelessChargingStarted.ogg
 
+# QKSMS App
+PRODUCT_PACKAGES += \
+    QKSMS
+
 # Change default sounds
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.config.ringtone=The_big_adventure.ogg \
